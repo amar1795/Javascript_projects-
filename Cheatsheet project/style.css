@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    height: 70px;    
+    color: #a6e22e;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+   
+    filter: invert(100%);
+
+
+}
+
+.content{
+    font-size:45px;
+}
+
+.container{
+    /* background-color: red; */
+    max-width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+button span{
+    cursor: pointer;
+    color: white;
+   
+    
+}
